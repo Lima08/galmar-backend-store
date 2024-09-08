@@ -18,10 +18,13 @@ module.exports = {
         DATABASE_TYPE: 'postgres', // Tipo de banco de dados
         DATABASE_URL:
           'postgresql//postgres.vspkvsxxytxppdgujdni:@Galmar2552@aws-0-sa-east-1.pooler.supabase.com:6543/postgres',
+        MEDUSA_ADMIN_ONBOARDING_TYPE: 'nextjs',
         ADMIN_CORS: '/https?://.+/i',
-        ADMIN_CORS: '/https?://.+/i',
+        STORE_CORS: '/https?://.+/i',
         MEDUSA_BACKEND_URL: 'http://44.203.95.169:9000', // API de produção
-        MEDUSA_ADMIN_ONBOARDING_NEXTJS_DIRECTORY: 'galmar-frontend-store'
+        MEDUSA_ADMIN_ONBOARDING_NEXTJS_DIRECTORY: 'galmar-frontend-store',
+        JWT_SECRET: 'galmar',
+        COOKIE_SECRET: 'galmar'
       }
     }
   ]
