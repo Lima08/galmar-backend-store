@@ -3,7 +3,7 @@ module.exports = {
     {
       name: 'medusa-backend', // Nome da aplicação
       script: 'npm', // Script de inicialização
-      args: 'start', // Argumento para o npm start
+      args: 'run start', // Argumento para o npm start
       instances: 1, // Número de instâncias (use "max" para usar todos os núcleos da CPU)
       autorestart: true, // Reinicia automaticamente em caso de falha
       watch: false, // Não observa mudanças nos arquivos
